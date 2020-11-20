@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
 
+education_list = ['education','study','studied','qualification','qualifications']
 education_response = "Vinod is a Final Year Computer Engineering Student, currently studying at "\
                     "Pune Vidyarthi Griha's College of Engineering and Technology. He has a CGPA "\
                         "of 8.51. \n\nHe completed his HSC (Science) in 2017 from Rajiv Gandhi "\
@@ -74,7 +75,7 @@ def index(request):
     if (message == 'hi' or message == 'hello'):
         return HttpResponse("Hi, This is Vinod's ResumeBot!")
     
-    elif 'education' in message:
+    elif search(education_list,message):
         return HttpResponse(education_response)
 
     elif search(experience_list,message):
