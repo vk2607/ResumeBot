@@ -5,16 +5,16 @@ import json
 
 education_response = "Vinod is a Final Year Computer Engineering Student, currently studying at "\
                     "Pune Vidyarthi Griha's College of Engineering and Technology. He has a CGPA "\
-                        "of 8.51. \nHe completed his HSC (Science) in 2017 from Rajiv Gandhi "\
-                            "College with 77.08%. \nHe completed his SSC from Modern "\
+                        "of 8.51. \n\nHe completed his HSC (Science) in 2017 from Rajiv Gandhi "\
+                            "College with 77.08%. \n\nHe completed his SSC from Modern "\
                                 "Highschool in 2015 with 86.2%."
 
 experience_list = ['experience','internship','internships','work', 'intern']
-experience_response = "Vinod has done 2 major internships throughout his engineering.\n"\
+experience_response = "Vinod has done 2 major internships throughout his engineering.\n\n"\
                         "The first one was as Android Development Intern at The Sparks Foundation."\
                             " The duration of internship was from April 2019 till June 2019."\
                                 " Vinod devised more than 5 android application using XML, Java and Django"\
-                                    " as a part of the internship.\n"\
+                                    " as a part of the internship.\n\n"\
                                 "The second internship was as Data Science intern at Sapio Analytics."\
                                     " Vinod worked on Projects for State Govevernments as a part of this"\
                                         " internship. He also learnt about NLP, Data Visualization during"\
@@ -23,7 +23,7 @@ experience_response = "Vinod has done 2 major internships throughout his enginee
                                     
 
 achievements_list = ['achievement','achievements', 'awards','honours','honors','award','honor']
-achievements_repsonse = "Achievements -\n1.Winner of Smart India Hackathon 2020\n"\
+achievements_repsonse = "Achievements -\n\n1.Winner of Smart India Hackathon 2020\n"\
                         "2. Winner of Principal Global Hackathon\n"\
                             "3. Winner of Alacrity Hackathon\n"\
                                 "4. First Position at ​ Collegiate Coding Competition\n"\
@@ -33,13 +33,13 @@ achievements_repsonse = "Achievements -\n1.Winner of Smart India Hackathon 2020\
 projects_list = ['projects', 'project']
 projects_response = "Vinod is currently working on his BE Project which is Sensor Fusion for"\
                         " autonomous vehicle. The project is sponsored by ARAI. Apart from that"\
-                            " he has developed several other projects such as - \n"\
+                            " he has developed several other projects such as - \n\n"\
                                 "1. Portfolio Rebalancing of Mutual Funds ​ (Sponsored and Awarded by Principal Global Services)\n"\
                                     "2. Calculating safe speed limit for driver ​ (Awarded first prize by ​ Automotive Research Association of India ​ )​\n"\
                                         "3. Township Management Android Application ​ (Winning Project at Alacrity Hackathon 2020)"
 
 skills_list = ['skill', 'skills']
-skills_response = 'Vinod has technical skills such as - \n'\
+skills_response = 'Vinod has technical skills such as - \n\n'\
                     "Programming Languages: ​ Python, Java, C++, C\n"\
                         "Databases: ​ MYSQL, NoSQL\n"\
                             "Domains: ​ Machine Learning, Data Science, Android\n"\
@@ -52,11 +52,11 @@ skills_response = 'Vinod has technical skills such as - \n'\
 
 cocurricular_list = ['co-curriculars','curricular', 'curriculars','co-curriculars']
 cocurricular_response = 'Vinod believes that all-round development is extremely important to'\
-                        " be successfull in life. He has managed to learn things whenever an opportunity was presented.\n"\
+                        " be successfull in life. He has managed to learn things whenever an opportunity was presented.\n\n"\
                             "He is the General Secretary of Association of Computer Engineering Students (ACES). He was previously"\
-                                " in Web Development and Sponsorship Team in ACES.\n"\
+                                " in Web Development and Sponsorship Team in ACES.\n\n"\
                                     "He is also a Project Management Head and a Podcaster at Developer Students Club PVGCOET.\n"\
-                                        "He was the team member of Robocon PVGCOET 2020.\n"\
+                                        "He was the team member of Robocon PVGCOET 2020.\n\n"\
                                             "Vinod has a working proficency in English, Japanese, Marathi, Hindi.\n"\
                                                 "He loves to cycle, go on a trek, read some poetry, and occassionally tries his hand at Flute too."
 
