@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
-
+import json
 
 education_response = "Vinod is a Final Year Computer Engineering Student, currently studying at "\
                     "Pune Vidyarthi Griha's College of Engineering and Technology. He has a CGPA "\
@@ -11,15 +11,14 @@ education_response = "Vinod is a Final Year Computer Engineering Student, curren
 
 @csrf_exempt
 def index(request):
-
     req_dict = request.body
     req_dict = req_dict.decode('utf-8')
-	try:
-		request_json = json.loads(req_dict)
-	except Exception as e:
-		print(e)
+    try:
+	    request_json = json.loads(req_dict)
+    except Exception as e:
+	    print(e)
     message = request_json['payload']['payload']['text']
-	message = message.lower()
+    message = message.lower()
 
     if (message == 'hi' or message == 'hello'):
         return HttpResponse("Hi, This is Vinod's ResumeBot!")
