@@ -45,7 +45,7 @@ skills_response = 'Vinod has technical skills such as - \n\n'\
                             "Domains: ​ Machine Learning, Data Science, Android\n"\
                                 "Tools: ​ Git, AWS, MS Excel, Tableau, Google Colab\n"\
                                     "Libraries: ​ matplotlib, seaborn, beautiful soup, Tensorflow\n"\
-                                        "Web Developmen​ t: HTML, CSS, JavaScript, Django.\n"\
+                                        "Web Developmen​t: HTML, CSS, JavaScript, Django.\n\n"\
                                             "Apart from these, he has also been a part of clubs and committees in his colleges"\
                                                 " which have helped him to develop soft skills such as teamwork, leadership,"\
                                                     " public speaking, management, etc."
@@ -58,7 +58,7 @@ cocurricular_response = 'Vinod believes that all-round development is extremely 
                                     "He is also a Project Management Head and a Podcaster at Developer Students Club PVGCOET.\n"\
                                         "He was the team member of Robocon PVGCOET 2020.\n\n"\
                                             "Vinod has a working proficency in English, Japanese, Marathi, Hindi.\n"\
-                                                "He loves to cycle, go on a trek, read some poetry, and occassionally tries his hand at Flute too."
+                                                "He loves to cycle, go on a trek, read some poetry, and occassionally tries his hand at flute too."
 
 @csrf_exempt
 def index(request):
