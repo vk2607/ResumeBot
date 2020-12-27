@@ -38,7 +38,7 @@ projects_response = "Vinod is currently working on his BE Project which is Senso
                                 "1. Portfolio Rebalancing of Mutual Funds ​ (Sponsored and Awarded by Principal Global Services)\n"\
                                     "2. Calculating safe speed limit for driver ​ (Awarded first prize by ​ Automotive Research Association of India ​ )​\n"\
                                         "3. Township Management Android Application ​ (Winning Project at Alacrity Hackathon 2020)\n"\
-                                            "You can view all his projects at - https://www.linkedin.com/in/vinodkamat2607/ "
+                                            "You can view all his projects at - https://github.com/vk2607 "
 
 skills_list = ['skill', 'skills']
 skills_response = 'Vinod has technical skills such as - \n\n'\
